@@ -1,12 +1,11 @@
 import React from "react";
 import '../styles/globals.css'
+import head from "./head";
 
 const RootLayout = ({children}: { children: React.ReactNode }) => {
     return (
         <main>
-            <head>
-                <title>Web 3 Messenger</title>
-            </head>
+            <head />
             <body>
             {children}
             </body>
